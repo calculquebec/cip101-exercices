@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 #SBATCH --account=def-sponsor00  # replace this with your supervisors account
