@@ -1,6 +1,6 @@
 # Exercice 03
 
-Soumettre une tâche qui compte le nombre de mots dans les fichiers donné en utilisant plusieurs coeurs sur un même noeud.
+Soumettre une tâche qui compte le nombre de mots dans les fichiers donnés en utilisant plusieurs coeurs sur un même noeud.
 Vous devez charger le module Python.
 
 ---

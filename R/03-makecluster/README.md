@@ -13,7 +13,7 @@ R -e 'install.packages("doParallel", repos="https://cloud.r-project.org/")'
 --- 
 
 Soumettre une tâche qui exécute le script R `makecluster.R`. 
-Vous devez d'abords installer localement `doParallel`, s'il n'est pas déjà présent. 
+Vous devez d'abord installer localement `doParallel`, s'il n'est pas déjà présent. 
 Le compte est: `def-sponsor00`.
 
 ---

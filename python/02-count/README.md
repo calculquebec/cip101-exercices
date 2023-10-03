@@ -1,6 +1,6 @@
-# Exercice 01
+# Exercice 02
 
-Soumettre une tâche qui compte le nombre de mots dans les fichiers donné.
+Soumettre une tâche qui compte le nombre de mots dans les fichiers donnés.
 Vous devez charger le module Python.
 
 ---
