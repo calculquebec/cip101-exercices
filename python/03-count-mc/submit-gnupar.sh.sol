@@ -9,4 +9,4 @@
 
 module load python/3.10
 
-parallel --verbose -j $SLURM_CPUS_PER_TASK python seq-count.py ::: text.txt text.txt text.txt text.txt
+parallel --verbose -j $SLURM_CPUS_PER_TASK python ../02-count/seq-count.py ::: text.txt text.txt text.txt text.txt
