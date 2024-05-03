@@ -12,16 +12,5 @@
 
 module load StdEnv/2023 python/3.11 mpi4py
 
-# create the virtual environment on each node :
-srun --ntasks $SLURM_NNODES --tasks-per-node=1 bash << EOF
-virtualenv --no-download $SLURM_TMPDIR/env
-source $SLURM_TMPDIR/env/bin/activate
-
-pip install --no-index --upgrade pip
-pip install --no-index numpy==1.26.4
-EOF
-
-# activate only on main node
-source $SLURM_TMPDIR/env/bin/activate;
 # srun exports the current env, which contains $VIRTUAL_ENV and $PATH variables
-srun python crunch.py --cpu -n 1111;
+srun python hw-mpi.py
