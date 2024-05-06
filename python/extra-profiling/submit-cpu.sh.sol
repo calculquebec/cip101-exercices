@@ -9,7 +9,7 @@
 # https://docs.alliancecan.ca/wiki/Python#Creating_and_using_a_virtual_environment
 
 # Load required modules
-module load python/3.11
+module load StdEnv/2023 python/3.11
 
 # Create the virtual environment onto the local node
 virtualenv --no-download $SLURM_TMPDIR/env
