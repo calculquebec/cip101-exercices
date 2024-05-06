@@ -21,4 +21,4 @@ pip install --no-index -r requirements.txt
 
 # Crunch some numbers, and profile it.
 # Explore scalene arguments using scalene --help or https://github.com/plasma-umass/scalene
- scalene --cli --reduced-profile crunch.py --- --gpu -n 1000
+ scalene --cli --reduced-profile crunch.py --- --gpu
