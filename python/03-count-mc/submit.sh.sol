@@ -7,4 +7,4 @@
 
 module load python/3.10
 
-python mc-count.py -n $SLURM_CPUS_PER_TASK text.txt text.txt text.txt text.txt
+python mc-count.py -n ${SLURM_CPUS_PER_TASK:-1} text.txt text.txt text.txt text.txt
