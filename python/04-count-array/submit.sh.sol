@@ -14,7 +14,7 @@ filename=$(sed -n "${SLURM_ARRAY_TASK_ID}p" files-list.txt)
 
 # Will count words in one file.
 echo "Processing file : $filename"
-python seq-count.py $filename > results.$SLURM_ARRAY_TASK_ID
+python ../02-count/seq-count.py $filename > results.$SLURM_ARRAY_TASK_ID
 
 # One could then aggregate the results with:
 # cat results.* > all-results
