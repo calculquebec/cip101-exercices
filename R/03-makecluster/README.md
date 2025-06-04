@@ -18,6 +18,6 @@ Le compte est: `def-sponsor00`.
 
 ---
 
-Submit a task that execute the R script `makecluster.R`.
-First, you need to install `doParallel`, if not already installed. 
+Submit a task which executes the R script `makecluster.R`.
+You'll need to first install `doParallel`, if it's not already installed. 
 The sponsor account is: `def-sponsor00`.
