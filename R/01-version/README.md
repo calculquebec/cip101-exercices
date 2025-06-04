@@ -7,6 +7,6 @@ Le résultat se trouvera dans le fichier `slurm-*.out`.
 
 ---
 
-Submit a task thats prints the current version of R. 
+Submit a task which prints the current version of R. 
 The sponsor account is: `def-sponsor00`.
 The result will be in file `slurm-*.out`.
