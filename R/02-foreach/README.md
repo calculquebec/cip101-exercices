@@ -13,11 +13,11 @@ R -e 'install.packages("doParallel", repos="https://cloud.r-project.org/")'
 --- 
 
 Soumettre une tâche qui exécute le script R `foreach.R`. 
-Vous devez d'abords installer localement `doParallel`. 
+Vous devez d'abord installer localement `doParallel`. 
 Le compte est: `def-sponsor00`.
 
 ---
 
-Submit a task thats execute R script `foreach.R`. 
+Submit a task which executes the R script `foreach.R`. 
 First, you need to install `doParallel`. 
 The sponsor account is: `def-sponsor00`.
