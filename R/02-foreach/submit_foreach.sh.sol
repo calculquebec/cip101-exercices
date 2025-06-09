@@ -8,7 +8,7 @@
 
 # Submmision command: sbatch submit_foreach.sh.sol
 
-module load gcc/9.3.0 r/4.1.2
+module load r/4.3.1
 
 export R_LIBS=~/.local/R/$EBVERSIONR/
 
