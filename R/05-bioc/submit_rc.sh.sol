@@ -8,7 +8,7 @@
 
 # Submmision command: sbatch submit_rc.sh.sol
 
-module load gcc/9.3.0 r r-bundle-bioconductor
+module load r r-bundle-bioconductor
 
 export R_LIBS=~/.local/R/$EBVERSIONR/
 
